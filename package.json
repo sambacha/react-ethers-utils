@@ -1,0 +1,29 @@
+{
+  "name": "react-etherjs-utils",
+  "version": "0.1.0",
+  "description": "utils for react + ethers",
+  "main": "index.js",
+  "scripts": {
+     "dist": "npx babel index.js --out-file dist.js  --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/react-etherjs-utils.git"
+  },
+  "keywords": [
+    "react",
+    "ethers",
+    "web3",
+    "ethereum"
+  ],
+  "author": "sam bacha <sambacha@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/react-etherjs-utils/issues"
+  },
+  "homepage": "https://github.com/sambacha/react-etherjs-utils#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14"
+  }
+}
