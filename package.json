@@ -2,9 +2,10 @@
   "name": "react-etherjs-utils",
   "version": "0.1.0",
   "description": "utils for react + ethers",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-     "dist": "npx babel index.js --out-file dist.js  --source-maps"
+    "dist": "npx babel index.js --out-file dist.js  --source-maps"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
   "homepage": "https://github.com/sambacha/react-etherjs-utils#readme",
   "devDependencies": {
     "@babel/cli": "^7.13.14",
-    "@babel/core": "^7.13.14"
+    "@babel/core": "^7.13.14",
+    "babel-minify": "^0.5.1",
+    "babel-preset-minify": "^0.5.1"
   }
 }
