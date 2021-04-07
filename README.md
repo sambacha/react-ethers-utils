@@ -1,3 +1,8 @@
 ## `react-ethers-utils`
 
-> ueful js utils for react
+> useful js utils for react
+
+
+### License
+
+ISC
